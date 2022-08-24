@@ -13,6 +13,7 @@ body{
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-content: center;
 }
 
 .box-item{
@@ -20,6 +21,13 @@ body{
     height: 227px;
     background-color: lightgrey;
     border-radius: 10px;
-    margin-bottom: 23px;
+    margin: 0 13px 27px 13px;
 }
 
+.footer-item{
+    width: 80%;
+    height: 45px;
+    margin: 70px auto ;
+    border-radius: 10px;
+    background-color: plum;
+}
