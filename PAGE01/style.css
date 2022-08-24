@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+
+.header-item{
+    height: 45px;
+    background-color:#000000;
+    margin: 23px 0;
+}
