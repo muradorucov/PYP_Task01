@@ -21,10 +21,12 @@ body {
 
 .wrap{
     padding: 80px 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sidebar ul{
-    margin: 0;
+    margin: 20px 0;
     padding: 0;
     list-style-type: none;
     font-size: 13px;
@@ -36,5 +38,44 @@ body {
 }
 
 .sidebar ul li{
+    margin-bottom: 9px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-right:90px;
+}
+
+.content-box{
+    margin: 0 3px;
+}
+
+.box-img{
+    padding: 46px 19px;
+    background-color:#f5f5f5 ;
+}
+
+.box-img img{
+    padding-top: 40px;
+}
+
+.item-content{
+    margin: 10px;
+}
+
+.box-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.item-name, .stock{
+    color: #9a9999;
+    font-size: 14px;
+}
+
+.box-title,.item-name{
     margin-bottom: 10px;
 }
