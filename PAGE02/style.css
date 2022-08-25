@@ -1,5 +1,7 @@
 body,
 h1,
+h4,
+h5,
 p {
     margin: 0;
 }
@@ -34,4 +36,22 @@ nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 20px 0;
+}
+
+
+
+.content-item {
+    padding: 20px 35px;
+    margin-bottom: 22px;
+    border: 1px solid lightgrey;
+}
+
+.content-item h4,
+.content-item h5 {
+    margin-bottom: 20px;
+}
+
+.content-item ul {
+    font-size: 14px;
+    margin: 0;
 }
