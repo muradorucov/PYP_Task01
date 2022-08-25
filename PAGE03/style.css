@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .menu {
@@ -15,4 +16,25 @@ body {
     list-style-type: none;
     font-weight: 700;
     font-size: 14px;
+}
+
+
+.wrap{
+    padding: 80px 40px;
+}
+
+.sidebar ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sidebar ul span{
+    color: #9a9999;
+}
+
+.sidebar ul li{
+    margin-bottom: 10px;
 }
